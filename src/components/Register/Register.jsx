@@ -168,7 +168,6 @@ export default function Register() {
         </form>
       </div>
 
-      <img src="https://i.imgur.com/tSXj8Ba.jpg" alt="test imgur" />
 
     </section>
   );

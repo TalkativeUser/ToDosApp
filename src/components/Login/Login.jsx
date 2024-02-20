@@ -115,7 +115,6 @@ export default function Login() {
         </form>
       </div>
 
-      <img src="https://i.imgur.com/tSXj8Ba.jpg" alt="test imgur" />
     </section>
   );
 }
