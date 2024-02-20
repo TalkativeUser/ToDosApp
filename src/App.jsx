@@ -1,4 +1,4 @@
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createHashRouter } from "react-router-dom";
 import Layout from "./components/Layout/Layout.jsx";
 import Home from "./components/Home/Home.jsx";
 import Login from "./components/Login/Login.jsx";
@@ -10,7 +10,7 @@ import NoteContextProvider from "./Context/NoteContext.jsx";
 function App() {
   const theme = "dark";
   // prop drilling
-  const routes = createBrowserRouter([
+  const routes = createHashRouter([
     {
       path: "",
       element: (
